@@ -1,0 +1,16 @@
+{
+  "name": "pingou-sponsor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Enoki gas-station backend: sponsors Pingou's on-chain profile/allowlist txs so zkLogin users never need SUI.",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch --env-file=.env index.mjs"
+  },
+  "dependencies": {
+    "@mysten/enoki": "^1.0.8",
+    "@mysten/sui": "^2.17.0",
+    "ws": "^8.21.0"
+  }
+}
